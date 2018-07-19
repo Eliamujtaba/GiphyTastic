@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('button').on('click', function () {
         var animal = $(this).data('name');
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=JH3ol4U0gsWJy7wT8Ve2NG349CZVKgHE";
 
         $.ajax({
             url: queryURL,
