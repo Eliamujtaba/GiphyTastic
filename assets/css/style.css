@@ -1,25 +1,79 @@
-*{
-    background: url(../images/Tastic.jpg);
-    
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../images/Tastic.jpg")
 }
 
-.container{
-    color: black;
+.container {
+  float: left;
+  width: 95%;
+  margin-left: 20px;
+  margin-right: 10%;
+  margin-bottom: 30px;
 }
 
-.btn{
-    background: darkcyan;
-    color: whitesmoke;
-    padding: 10px;
+.container-2 {
+  float: right;
+  margin-top: 5px;
+  margin-right: 60px;
 }
 
-.h5 {
-    background: darkcyan;
+.label {
+  float: right;
+  margin-top: 10px;
+  margin-right: 61%;
+  font-size: 20px;
+  color: darkcyan;
 }
-@media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
+
+.search {
+  float: right;
+  width: 100%;
+  margin-right: 40px;
+  
+}
+
+.submit {
+  float: right;
+  margin-top: 7px;
+  margin-right: 88%;
+
+}
+
+
+
+.ratings {
+  color: black;
+  font-family: avenir;
+  font-size: 18px;
+}
+
+.btn-primary {
+  margin-top: 7px;
+  margin-left: 15px;
+  background: darkcyan;
+  color: white;
+  float: left;
+}
+
+.images {
+  width: 70%;
+  margin-left: 35px;
+  
+}
+
+@media screen and (max-width: 480px) {
+  .movImage {
+      width: 500px;
+      height: 500px;
   }
+  body {
+      background-color: red;
+  }
+}
+
+
 
 
